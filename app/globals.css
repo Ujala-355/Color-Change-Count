@@ -1,0 +1,100 @@
+*{
+    margin:0;
+    box-sizing:border-box;
+}
+body{
+    background:#dbcedd;
+}
+.container {
+    height:600px;
+    width:400px;
+    margin:auto;
+    border:3px solid black;
+    margin-top:50px;
+    background-color:rgb(209, 32, 32);
+}
+.Box {
+    width: 250px;
+    height: 190px;
+    background:white;
+    margin:auto;
+    border:3px solid rgb(72, 212, 205);
+
+}
+.buttonsbox{
+    width:100%;
+    height:300px;
+    margin-top:45px;
+}
+.col{
+    float:left;
+}
+.pinkBox{
+    width:50%;
+    height:150px;
+    border:2px solid black;
+    background:rgb(247, 214, 214);
+}
+.blueBox{
+    width:50%;
+    height:150px;
+    border:2px solid black;
+    background:rgb(138, 145, 243);
+}
+.greenBox{
+    width:50%;
+    height:150px;
+    border:2px solid black;
+    background:rgb(179, 235, 179);
+}
+.blackBox{
+    width:50%;
+    height:150px;
+    border:2px solid black;
+    background:rgb(161, 163, 161);
+}
+.colorButton {
+    width:80px;
+    height:30px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+.pinkButton {
+    background-color:rgb(245, 128, 128);
+    color: white;
+    margin-left:70px;
+    margin-top:50px;
+}
+
+.blueButton {
+    background-color: blue;
+    color: white;
+    margin-left:70px;
+    margin-top:50px;
+}
+
+.greenButton {
+    background-color: green;
+    color: white;
+    margin-left:70px;
+    margin-top:50px;
+}
+
+.blackButton {
+    background-color: black;
+    color: white;
+    margin-left:70px;
+    margin-top:50px;
+}
+.counts {
+    display:flex;
+    justify-content:center
+}
+
+p {
+    margin-top:20px;
+    font-size:16px;
+}
+	
